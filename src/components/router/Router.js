@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 
 const getCurrentPath = () => {
   const path = document.location.pathname
-  console.log(path)
   return path.substring(path.lastIndexOf('/'))
 }
 
