@@ -23,6 +23,12 @@ export class Router extends Component {
     }
   }
 
+  componentDidMount() {
+    window.onpopstate = () => {
+      this.setState({route: getCurrentPath()})
+    }
+  }
+
   render() {
     return (
       <div>
