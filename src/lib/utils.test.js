@@ -1,4 +1,4 @@
-import {partial, pipe} from './utils'
+import {partial, pipe, removeTodo} from './utils'
 
 const add = (a, b) => a + b
 const addThree = (a, b, c) => a + b +c
@@ -33,4 +33,4 @@ test('pipe works with more than 2 functions', () => {
   const pipeline = pipe(add, inc, dbl, inc) // => inc(dbl(inc(add(1, 2))))
   const result = pipeline(1, 2)
   expect(result).toBe(9)
-}) 
+})
