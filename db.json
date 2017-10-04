@@ -3,17 +3,27 @@
     {
       "id": 1,
       "name": "Setup server",
-      "isComplete": true
+      "isCompleted": true
     },
     {
       "id": 2,
       "name": "Start server",
-      "isComplete": true
+      "isCompleted": true
     },
     {
       "id": 3,
       "name": "Connect server",
-      "isComplete": true
+      "isCompleted": true
+    },
+    {
+      "id": 729365,
+      "name": "new",
+      "isCompleted": false
+    },
+    {
+      "id": 421819,
+      "name": "test",
+      "isCompleted": false
     }
   ]
 }
